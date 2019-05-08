@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.graphics.Color;
+import android.graphics.Paint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         text += red + ", " + green + "," + blue + "\n";
         txv.setTextSize(16);
         txv.setText(text);
+
         txv.setMovementMethod(new ScrollingMovementMethod());
         txv.setBackgroundColor(Color.rgb(red, green, blue));
 
